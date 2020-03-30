@@ -15,6 +15,9 @@
 		7A3B296D243144DA009C3043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B296B243144DA009C3043 /* LaunchScreen.storyboard */; };
 		7A3B2978243144DA009C3043 /* Covid_19_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B2977243144DA009C3043 /* Covid_19_TrackerTests.swift */; };
 		7A3B2983243144DB009C3043 /* Covid_19_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B2982243144DB009C3043 /* Covid_19_TrackerUITests.swift */; };
+		7A3B299124315273009C3043 /* AllCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B299024315273009C3043 /* AllCountries.swift */; };
+		7A3B2993243156AC009C3043 /* AllCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B2992243156AC009C3043 /* AllCases.swift */; };
+		7A3B299B24319993009C3043 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3B299A24319993009C3043 /* Icon-256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7A3B297E243144DA009C3043 /* Covid-19 TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covid-19 TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3B2982243144DB009C3043 /* Covid_19_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_19_TrackerUITests.swift; sourceTree = "<group>"; };
 		7A3B2984243144DB009C3043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3B299024315273009C3043 /* AllCountries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCountries.swift; sourceTree = "<group>"; };
+		7A3B2992243156AC009C3043 /* AllCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCases.swift; sourceTree = "<group>"; };
+		7A3B299A24319993009C3043 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-256.png"; path = "../../../../Downloads/appiconmaker.co_ios/Icon-256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,10 @@
 				7A3B2966243144DA009C3043 /* Assets.xcassets */,
 				7A3B296B243144DA009C3043 /* LaunchScreen.storyboard */,
 				7A3B296E243144DA009C3043 /* Info.plist */,
+				7A3B299A24319993009C3043 /* Icon-256.png */,
 				7A3B2968243144DA009C3043 /* Preview Content */,
+				7A3B299024315273009C3043 /* AllCountries.swift */,
+				7A3B2992243156AC009C3043 /* AllCases.swift */,
 			);
 			path = "Covid-19 Tracker";
 			sourceTree = "<group>";
@@ -242,6 +251,7 @@
 			files = (
 				7A3B296D243144DA009C3043 /* LaunchScreen.storyboard in Resources */,
 				7A3B296A243144DA009C3043 /* Preview Assets.xcassets in Resources */,
+				7A3B299B24319993009C3043 /* Icon-256.png in Resources */,
 				7A3B2967243144DA009C3043 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,8 @@
 			files = (
 				7A3B2961243144C7009C3043 /* AppDelegate.swift in Sources */,
 				7A3B2963243144C7009C3043 /* SceneDelegate.swift in Sources */,
+				7A3B2993243156AC009C3043 /* AllCases.swift in Sources */,
+				7A3B299124315273009C3043 /* AllCountries.swift in Sources */,
 				7A3B2965243144C7009C3043 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,9 +445,10 @@
 		7A3B2988243144DB009C3043 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Covid-19 Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TSTUYRAJH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Covid-19 Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,9 +465,10 @@
 		7A3B2989243144DB009C3043 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Covid-19 Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TSTUYRAJH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Covid-19 Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
